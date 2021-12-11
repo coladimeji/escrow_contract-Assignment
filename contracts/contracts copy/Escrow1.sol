@@ -5,7 +5,7 @@ import "hardhat/console.sol";
 
 import '@openzeppelin/contracts/access/AccessControl.sol';
 
-contract EscrowToken is AccessControl {
+contract Escrow1 is AccessControl {
     // Create a new role identifier for the agent, reciever and sender roles
     bytes32 public constant AGENT_ROLE = keccak256('AGENT_ROLE');
     bytes32 public constant RECIEVER_ROLE = keccak256('RECIEVER_ROLE');
